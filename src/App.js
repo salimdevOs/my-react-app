@@ -1,22 +1,9 @@
 import React from 'react';
-
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-        
-        >
-        <h1>hello saleem</h1>
-        </a>
-      </header>
-    </div>
+  <div className="App">
+    <h1>hello world</h1>
+  </div>
   );
 }
 
