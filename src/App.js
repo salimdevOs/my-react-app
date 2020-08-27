@@ -1,9 +1,15 @@
 import React from 'react';
+import Exemple from './Exemple.js';
 function App() {
   return (
-  <div className="App">
-    <h1>hello world</h1>
-  </div>
+    <div className="App">
+      <Exemple dua="Allah khair" />
+      <Exemple dua="Allah rehm" />
+      <Exemple dua="Allah kareem ha " />
+    </div>
+
+ 
+
   );
 }
 
