@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <Exemple dua="Allah khair" />
-      <Exemple dua="Allah rehm" />
+      <Exemple dua="i will do this inshahllah" />
       <Exemple dua="Allah kareem ha " />
     </div>
 
