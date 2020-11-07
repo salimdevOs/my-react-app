@@ -1,12 +1,25 @@
 import React from 'react';
-import Exemple from './Exemple.js';
+import { Header } from './components/Header.js';
+import './App.css';
+import { Balance } from './components/Balance.js';
+import { IncomeExpenses } from './components/IncomeExpenses.js';
+import { TransactionList } from './components/TransactionList.js';
+import { AddTransaction } from './components/AddTransaction.js';
+import { GlobalProvider } from './context/GlobalState.js';
 function App() {
   return (
-    <div className="App">
-      <Exemple dua="Allah khair" />
-      <Exemple dua="i will do this inshahllah" />
-      <Exemple dua="Allah kareem ha " />
-    </div>
+    <GlobalProvider >
+     <Header />
+     <div className="contaier">
+
+       <Balance />
+       <IncomeExpenses />
+       <TransactionList />
+       <AddTransaction />
+       </div>
+    </GlobalProvider>
+   
+    
 
  
 
